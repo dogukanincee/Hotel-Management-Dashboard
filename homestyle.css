@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(maldives.jpg);
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+    /* line 253, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_common.scss */
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/************use_sasu css start***************/
+/* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place {
+    position: relative;
+    z-index: 99;
+}
+
+/* line 8, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .feature_icon_1 {
+    position: absolute;
+    left: 22%;
+    top: 42%;
+    z-index: -1;
+}
+
+/* line 15, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .feature_icon_2 {
+    right: 20%;
+    top: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .feature_icon_3 {
+    position: absolute;
+    left: 3%;
+    z-index: -1;
+    bottom: 70%;
+}
+
+/* line 27, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .feature_icon_4 {
+    position: absolute;
+    right: 15%;
+    top: 7%;
+    z-index: -1;
+}
+
+/* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .single_popular_place {
+    padding: 60px 25px 56px;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: 0px 3px 81px 0px rgba(216, 216, 216, 0.45);
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    background-color: #fff;
+}
+
+@media (max-width: 576px) {
+    /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place {
+        padding: 25px 10px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place {
+        padding: 30px 15px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place {
+        padding: 30px 25px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place {
+        margin-top: 25px;
+    }
+}
+
+/* line 59, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .single_popular_place img {
+    max-width: 150px;
+}
+
+/* line 62, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .single_popular_place h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 45px 0 20px;
+}
+
+@media (max-width: 576px) {
+    /* line 62, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place h4 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 62, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place h4 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 62, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place h4 {
+        margin-bottom: 15px;
+    }
+}
+
+/* line 81, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .single_popular_place p {
+    color: #7f7f7f;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* line 86, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+.popular_place .single_popular_place .btn1 {
+    margin-top: 42px;
+}
+
+@media (max-width: 991px) {
+    /* line 86, /Applications/MAMP/htdocs/palash/cl/july 2019/189 travel/189 travel html/sass/_popular_place.scss */
+    .popular_place .single_popular_place .btn1 {
+        margin-top: 20px;
+    }
+}
+
+#logoutHref {
+    display: block;
+    justify-content: center;
+    margin:100px 250px 100px 250px;
+    size: 10px;
+}

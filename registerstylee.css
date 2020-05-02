@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("photo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.form {
+    width: 300px;
+    height: 750px;
+    background: papayawhip;
+    color: black;
+    top: 53%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 25px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#signUpButton {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 30px;
+    background: forestgreen;
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+h1 {
+    margin: 5px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: forestgreen;
+}
+
+.form p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"], input[type="password"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 10px;
+    color: darkgrey;
+}
+
+.form a:hover {
+    color: yellow;
+}
